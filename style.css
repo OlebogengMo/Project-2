@@ -1,0 +1,61 @@
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    min-width: 100vh;
+    background: url(imgg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text h1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chartreuse;
+}
+.text p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: left;
+    columns: 3;
+}
+.skills h2{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(41, 41, 116);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+}
+.skills ul{
+    columns: 3;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    z-index: 100;
+}
